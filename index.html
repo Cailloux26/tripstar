@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>Traveler - San Francisco </title>
+<link rel="stylesheet" href="./css/common.css">
+<script src="./js/jquery-2.1.0.min.js" async defer></script>
+<script src="./js/common.js" async defer></script>
+<script src="../js/ga.js" async defer></script>
+<link rel="stylesheet" type="text/css" href="http://w2ui.com/src/w2ui-fields-1.0.min.css" />
+<script type="text/javascript" src="http://w2ui.com/src/w2ui-fields-1.0.min.js"></script>
+<!--[if IE]> 
+<script> 
+ document.createElement("header"); 
+ document.createElement("footer"); 
+ document.createElement("nav"); 
+ document.createElement("article"); 
+ document.createElement("section"); 
+</script> 
+<![endif]-->
+<!--[if lt IE 9]> 
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</script>
+</head>
+<body>
+<main id="wrapper">
+    <header id="header" role="banner">
+        <div id="header_body">
+            <h1 id="sitetitle">TripStar</h1>
+        </div>
+    </header>
+<!--     <section id="sticky_nav" role="navigation">
+            <div id="nav_content">
+            </div>
+    </section> -->
+    <section class="cities-wrapper" role="main">
+        <div id="city">
+            <div class="hero img1">
+                <span class="placename">Greek</span>
+                <div class="overlay">
+                    <div class="container">
+                        <h1 class="shiftbold">Let us find your precious trip!</h1>
+                        <h2 class="shiftbold">We'll suggest you a valuable plan from over 34,000 cities and 192 countries.</h2>
+                        <!-- Form -->
+                        <div id="search-container">
+                        <form id="search_form" action="/" method="post">
+                            <div class="input-wrapper">
+                                <label>
+                                    <input placeholder="Where do you want to go?" type="text" id="place" tabindex="1" required autofocus>
+                                </label>
+                            </div>
+                            <div class="input-wrapper">
+                                <label>
+                                    <input placeholder="startterm" type="date" tabindex="2" id="startdate" required>
+                                </label>
+                            </div>
+                            <div class="input-wrapper">
+                                <label>
+                                    <input placeholder="endterm" type="date" tabindex="3" id="enddate" required>
+                                </label>
+                            </div>
+                            <div class="input-wrapper">
+                                <label>
+                                <select id="guests" name="guests" class="search-option small" tabindex="4">
+                                    <option value="1">1 Guest</option>
+                                    <option value="2">2 Guests</option>
+                                    <option value="3">3 Guests</option>
+                                    <option value="4">4 Guests</option>
+                                    <option value="5">5 Guests</option>
+                                    <option value="6">6 Guests</option>
+                                    <option value="7">7 Guests</option>
+                                    <option value="8">8 Guests</option>
+                                    <option value="9">9 Guests</option>
+                                    <option value="10">10 Guests</option>
+                                    <option value="11">11 Guests</option>
+                                    <option value="12">12 Guests</option>
+                                    <option value="13">13 Guests</option>
+                                    <option value="14">14 Guests</option>
+                                    <option value="15">15 Guests</option>
+                                    <option value="16">16+ Guests</option>
+                                </select>
+                                </label>
+                            </div>
+                            <div class="input-wrapper">
+                                <label>
+                                <select id="budget" name="budget" class="search-option small" tabindex="5" >
+                                    <option value="1">$100</option>
+                                    <option value="2">$200</option>
+                                    <option value="3">$300</option>
+                                    <option value="4">$400</option>
+                                    <option value="5">$500</option>
+                                    <option value="6">$600</option>
+                                    <option value="7">$700</option>
+                                    <option value="8">$800</option>
+                                    <option value="9">$900</option>
+                                    <option value="10">$1000</option>
+                                    <option value="11">$1100</option>
+                                    <option value="12">$1200</option>
+                                    <option value="13">$1300</option>
+                                    <option value="14">$1400</option>
+                                    <option value="15">$1500</option>
+                                    <option value="16">$1600</option>
+                                    <option value="17">$1700</option>
+                                    <option value="18">$1800</option>
+                                    <option value="19">$1900</option>
+                                    <option value="20">$2000</option>
+                                    <option value="21">$2100</option>
+                                    <option value="22">$2200</option>
+                                    <option value="23">$2300</option>
+                                </select>
+                                </label>
+                            </div>
+                            <div class="input-wrapper second">
+                                <label>
+                                    <input placeholder="Please enter your email address" type="email" id="email" tabindex="6" required>
+                                </label>
+                            </div>
+                            <div class="input-wrapper">
+                                <span class="slash">/</span>
+                                <label>
+                                    <input placeholder="Please enter your number" type="tel" id="tel" tabindex="7" pattern="[0-9]{10}" required>
+                                </label>
+                            </div>
+                            <div class="input-wrapper third">
+                                <label>
+                                     <textarea placeholder="Tell me your interests" id="interests" tabindex="8" required></textarea>
+                                </label>
+                            </div>
+                            <div class="forth">
+                                <button type="submit" class="btn" id="submit_location">Please Find</button>
+                            </div>
+                        </form>
+                        </div>
+                        <!-- /Form -->
+                    </div>
+                </div>
+            </div>
+            <div class="hero img2">
+                <span class="placename">India</span>
+            </div>
+            <div class="hero img3">
+                <span class="placename">Tahiland</span>
+            </div>
+            <div class="hero img4">
+                <span class="placename">Cambodia</span>
+            </div>
+            <div class="hero img5">
+                <span class="placename">Portugal</span>
+            </div>
+            <div class="hero img6">
+                <span class="placename">San Francisco</span>
+            </div>
+          </div>
+    </section>
+<script>
+var interests = ['Trips', 'Snow Boarding', 'Fishing', 'Startup & Enterprenuers', 'Web Startups', 'Web Design', 'Internet & Technology', 'Mobile Technology', 'Mobile Development', 'Entrepreneurship', 'New Technology', 'Startup Ventures', 'Web Development', 'Skiing', 'Cocktails and Dining', 'Outdoor Adventures', 'Sports & Recreation', 'Camping', 'Fun Times', 'Home Decorating', 'Kayaking', 'Acting', 'Dining Out', 'International Travel', 'Fitness', 'Silicon Valley', 'Walking', '20s & 30s Social', 'Cycling', 'Young Professional Singles (24-39)', 'Wine and Food', 'Drinking', 'Wine and Food Pairing', 'Casual Bicycling', 'Surfing', 'Self Empowerment & Exploration', 'Theater & Performance Art', 'Running', 'Brunch', 'Health and Wellness', 'San Francisco', 'Festivals & Events', 'Art', 'Fashionista', 'Education', 'Herpes', 'Bicycling', 'Programming Languages', 'Meeting New People', 'Fashion Industry', 'Hiking', 'Bargain Hunters', 'Software Developers', 'Startup Businesses', 'Business Intelligence', 'Programming', 'Happy Hour and Dining Out', 'Food Lovers', 'Innovation', 'Web Technology', 'Cooking And Recipes', 'Wine', 'Fashion and Style', 'Fashion Entrepreneurs Sharing Successful Secrets', 'Coffee', 'Social Media Marketing', 'Target Shooting', 'Interior Decorating', 'International & Exchange Students', 'Language & Culture', 'Outdoors', 'Technology Startups', 'Travel', 'Beach', 'English as a Second Language', 'Dating and Relationships', 'Happy Hours', 'Internet Marketing', 'Homebrewing', 'Outdoor Recreation', 'Education & Technology', 'Pubs & Bars', 'Cloud Computing'];
+
+    $('#interests').w2field('enum', { 
+        items: interests,
+        selected: []
+    });
+    $('w2ui-list').css('color', '#fff');
+</script>
+
+<footer role="contentinfo" id="footer">
+    <address>
+        <small>Copyright 2014, TripStar. All rights reserved.</small>
+    </address>
+</footer>
+</div>
+</body>
+</html>
